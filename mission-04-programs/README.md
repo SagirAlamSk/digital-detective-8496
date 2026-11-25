@@ -12,6 +12,33 @@ I ran the program using Python 3 from the Terminal and verified that it displaye
 
 I also compared compilers and interpreters based on their execution process, output, examples and advantages.
 
+### Task 4.1 — Program execution result
+
+I executed the program using:
+
+`python3 hello.py`
+
+The Terminal displayed:
+
+```text
+Hello from Python
+```
+
+This confirmed that the Python file was saved and executed successfully.
+
+### Task 4.2 — Compiler and Interpreter Comparison
+
+| Point | Compiler | Interpreter |
+|---|---|---|
+| When translation / execution happens | Translates source code before program execution. | Executes instructions during runtime. |
+| Typical output | Often produces object code or an executable program. | Generally executes through the interpreter without producing a standalone native executable. |
+| One example | GCC compiler used for C programs. | Python interpreter. |
+| One advantage | Compiled output can execute efficiently without translating the entire source program each time. | Makes testing and running code convenient because instructions are handled during execution. |
+
+### Explanation
+
+A compiler translates source code into another form before the program runs, often producing machine code or an executable. An interpreter executes program instructions during runtime. Compiled programs can execute efficiently, while interpreters provide a convenient way to run and test code. Python uses an interpreter-based execution model, although its implementation also involves compiling source code into bytecode.
+
 ## 3. Commands / tools used
 
 | Command / tool | Purpose |

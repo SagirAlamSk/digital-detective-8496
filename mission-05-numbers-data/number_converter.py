@@ -5,7 +5,7 @@ print("Welcome to the Number Converter!")
 try:
     number = int(input("Enter a positive decimal number: "))
 
-    if number < 0:
+    if number <= 0:
         print("Please enter a positive number.")
     else:
         binary_value = bin(number)

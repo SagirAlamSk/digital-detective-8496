@@ -36,7 +36,7 @@ The additional `evidence/` directory is preserved using `.gitkeep`, which allows
 
 ### Step 2 — Review the completed missions
 
-The following table records the progress of the assignment.
+### Mission completion status
 
 | Mission | Topic | Status |
 |---|---|---|
@@ -46,9 +46,11 @@ The following table records the progress of the assignment.
 | 3 | Understand the Operating System | Completed |
 | 4 | How Programs Run | Completed |
 | 5 | Numbers and Data | Completed |
-| 6 | Git and GitHub | Completed — Pull Request merged |
+| 6 | Git and GitHub | Completed — Pull Request #1 merged |
 | 7 | How Computers Communicate | Completed |
-| 8 | Final Report and Submission | Documentation prepared; final checks recorded |
+| 8 | Final Report and Submission | Completed — final commit pushed |
+
+All nine mission folders contain their respective README files, and the completed mission commits are available on the public GitHub repository.
 
 ### Step 3 — Review the practical files
 
@@ -103,7 +105,7 @@ Pull Request #1 was opened from `update-about` into `main`, reviewed and success
 
 The resulting merge commit is visible in the repository history.
 
-The repository also preserves a separate commit for the evidence directory.
+The `evidence/.gitkeep` placeholder was included in the initial Mission 0 setup commit, ensuring that the evidence directory remains part of the repository structure.
 
 ### Step 5 — Update the root README
 
@@ -120,13 +122,13 @@ It includes:
 
 ### Step 6 — Final repository review
 
-During the final review, I identified and addressed some repository housekeeping items.
+During the final review, I checked the mission directories, practical files, README documentation and Git history.
 
-The generated Python `__pycache__` directory was removed from the tracked project files, and `.gitignore` was updated with rules to exclude generated Python bytecode and macOS metadata files.
+The review also identified generated Python cache files that were not necessary for the assignment. These files were removed from Git tracking, and `.gitignore` was updated to exclude Python bytecode and macOS metadata files.
 
-The generated Python cache files were removed from Git tracking, and `.gitignore` was updated to exclude Python bytecode and macOS metadata files.
+The root README and the mission documentation were also reviewed for consistent links, accurate completion information and unnecessary placeholder wording.
 
-A few earlier README details also require a final consistency check, particularly the recorded Python and Git versions in Mission 0 and the completed push status in the earlier mission reports.
+After these corrections, the repository contained the nine mission folders, the practical Python programs, the supporting Mission 2 and Mission 5 files, and the final documentation.
 
 ## 3. Commands / tools used
 
@@ -210,8 +212,16 @@ The repository contains the following supporting material:
 
 ## 8. Commit details
 
-**Mission 8 commit message:** `Complete final report and verify assignment submission`
+**Commit message:** `Complete final report and verify assignment submission`
 
-The final report and root README are prepared for the final commit.
+**Final commit:** `c699841`
 
-The final push and repository verification are completed after committing these updates.
+**Branch:** `main`
+
+**Push status:** Successfully committed and pushed to GitHub.
+
+The final report and root README were included in the final documentation commit, along with the repository housekeeping corrections.
+
+**Repository URL:** https://github.com/SagirAlamSk/digital-detective-8496
+
+**Submission status:** Ready for submission through the instructor's Google Form. The Google Form submission itself remains pending.

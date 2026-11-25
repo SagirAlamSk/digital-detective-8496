@@ -28,6 +28,23 @@ After committing and pushing the branch, I opened a Pull Request on GitHub to pr
 | `git pull --ff-only origin main` | Retrieves remote changes without creating a merge commit. |
 | GitHub | Used to create and review a Pull Request. |
 
+### Task 6.4 — Git Command Glossary
+
+| Git operation | Explanation |
+|---|---|
+| `git init` | Initialises a new Git repository in the current directory. |
+| `git status` | Displays the current repository state and identifies modified, staged and untracked files. |
+| `git add` | Stages selected changes for the next commit. |
+| `git commit` | Records the staged changes as a new commit in the repository history. |
+| `git log --oneline` | Displays the commit history in a compact format. |
+| `git branch` | Lists the branches available in the local repository. |
+| `git switch -c update-about` | Creates a new branch named `update-about` and switches to it. |
+| `git switch main` | Switches the current working branch to `main`. |
+| `git push -u origin update-about` | Publishes the branch to the remote repository and configures its upstream. |
+| `git pull --ff-only origin main` | Retrieves and integrates remote changes into the current branch when a fast-forward is possible. |
+
+These operations form the basic Git workflow used to initialise a project, manage changes, maintain branches and publish work to GitHub.
+
 ## 4. My understanding
 
 Git is a version control system that helps track changes made to files over time. It allows developers to maintain a history of their work and return to earlier versions when necessary.

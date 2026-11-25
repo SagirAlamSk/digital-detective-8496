@@ -26,33 +26,49 @@ I completed the following activities:
 | Operating system | macOS |
 | Version | 27.2 |
 | Build | 26B123 |
-| Current account | Checked (details omitted for privacy) |
-| Available storage on `/` | 317 GiB |
-| Storage capacity | 460 GiB |
-| Filesystem usage | Approximately 4% |
+| Current account | Checked; account name omitted for privacy. |
+| Total filesystem capacity | 460 GiB |
+| Used storage | 13 GiB |
+| Available storage | 317 GiB |
+| Filesystem usage | 4% |
+
+The storage information was collected using `df -h /`. It showed that approximately 317 GiB was available on the root filesystem at the time of inspection.
 
 ### Process observation
 
-I used the process listing command to view a snapshot of running processes.
+I used `ps -axo pid,comm | head -n 15` to inspect a snapshot of running processes.
 
-Some processes observed included:
+Some of the processes displayed were:
 
-- `launchd`
-- `logd`
-- `UserEventAgent`
-- `fseventsd`
-- `systemstats`
+| PID | Process | Role |
+|---:|---|---|
+| 1 | `launchd` | System process responsible for starting and managing services. |
+| 100 | `logd` | Background service responsible for system logging. |
+| 103 | `UserEventAgent` | Background system process handling user-related events. |
+| 105 | `fseventsd` | Monitors filesystem events. |
+| 110 | `systemstats` | Collects system activity statistics. |
 
-The process list also displayed a PID column, which identifies individual running processes.
+A process is an instance of a program currently running on the computer. The PID (Process ID) is the numeric identifier assigned to each process, helping the operating system distinguish between them.
+
+The command displayed the PID column alongside the process names, allowing me to identify individual background processes.
 
 ### Path navigation
 
-I navigated between the main assignment directory and the `mission-02-terminal` directory.
+I navigated between the project directory and its Mission 2 subdirectory using `pwd` and `cd`.
 
-I observed that:
+**Absolute path example:**
 
-- An absolute path identifies a location starting from the filesystem root.
-- A relative path identifies a location based on the current working directory.
+`/Users/[redacted]/Coding/Projects/digital-detective-8496`
+
+An absolute path starts from the filesystem root and identifies a location independently of the current working directory.
+
+**Relative path example:**
+
+`mission-02-terminal`
+
+From the root of my assignment repository, this relative path refers to the Mission 2 directory.
+
+I also used `cd ..` to return to the parent directory. This demonstrated how relative navigation depends on the current location.
 
 ### File permissions
 
