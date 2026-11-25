@@ -97,5 +97,5 @@ The following file contains the completed work for this mission:
 
 **Commit message:** `Complete computer basics and IPOS mission`
 
-The completed Mission 1 documentation will be staged, committed and pushed to the `main` branch of the GitHub repository.
+**Push status:** Successfully committed and pushed to GitHub.
 

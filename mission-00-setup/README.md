@@ -32,6 +32,8 @@ This involved preparing the required directory structure, checking the developme
 | `git status` | Displays the current branch and the state of tracked and untracked files. |
 | `gh repo create --public --source=. --remote=origin` | Creates a public GitHub repository from the current directory and adds its remote connection as `origin`. |
 
+**Verified tool versions:** Python 3.14.7 and Git 2.55.0.
+
 **How the repository was published:**
 
 Rather than creating the repository manually through the GitHub website, GitHub CLI was used:
@@ -71,7 +73,7 @@ Using GitHub CLI also makes repository creation more convenient because it can b
 The following files and directories were prepared:
 
 ```text
-digital-detective-<last-four-usn-digits>/
+digital-detective-8496/
 ├── evidence/
 ├── mission-00-setup/
 │   └── README.md

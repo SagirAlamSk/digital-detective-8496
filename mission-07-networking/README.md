@@ -189,15 +189,13 @@ No personal IP addresses, private network information or sensitive computer deta
 
 ## 8. Commit Details
 
-**Suggested commit message:**
+**Commit message:** `Explain networking concepts and website communication`
 
-`Explain networking concepts and website communication`
-
-The mission documentation should be staged and committed separately, then pushed to the GitHub repository.
+**Commit:** `02a3572`
 
 **Repository:** `digital-detective-8496`
 
 **Branch:** `main`
 
-**Commit status:** Pending the Mission 7 documentation commit and push.
+**Push status:** Successfully committed and pushed to GitHub.
 
