@@ -70,4 +70,18 @@ Each mission will have its own dedicated commit, with completed work pushed to G
 
 This also helps maintain a clear history of the assignment.
 
-**Assignment Status:** In Progress
+## My Learning
+
+Working on this assignment has helped me understand how computers
+manage information and how developers organise their projects.
+
+Some things I have learned so far:
+
+- How input, processing, output and storage work together.
+- How to use Terminal commands to manage files and folders.
+- How an operating system manages processes and permissions.
+- How Python can convert decimal numbers into binary and hexadecimal.
+- How Git records changes and helps maintain a project's history.
+
+I also learned that keeping work organised and committing changes
+regularly makes it easier to track progress.
