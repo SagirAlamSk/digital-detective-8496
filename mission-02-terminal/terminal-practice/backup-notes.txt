@@ -1,0 +1,2 @@
+My first Terminal practice file.
+I am learning file management.
